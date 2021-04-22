@@ -1,0 +1,37 @@
+---
+vscode_extensions:
+ - 74th.json-yaml-schema-selector
+ - AdamRybak.graycat-sql-formatter
+ - alexcvzz.vscode-sqlite
+ - bierner.markdown-mermaid
+ - CJamesMay.plush # Language support for the Go Plush templating package
+ - DavidAnson.vscode-markdownlint
+ - dbaeumer.vscode-eslint
+ - vscode-icons-team.vscode-icons
+ - eamodio.gitlens
+ - EditorConfig.EditorConfig
+ - esbenp.prettier-vscode
+ - fwcd.kotlin
+ - golang.go
+ - hashicorp.terraform
+ - janisdd.vscode-edit-csv
+ - JSONResume.vscode-jsonresume
+ - lacroixdavid1.vscode-format-context-menu
+ - laktak.hjson
+ - lextudio.restructuredtext
+ - ms-azuretools.vscode-docker
+ - ms-kubernetes-tools.vscode-kubernetes-tools
+ - ms-python.python
+ - ms-python.vscode-pylance
+ - ms-toolsai.jupyter
+ - ms-vscode-remote.remote-containers
+ - njpwerner.autodocstring
+ - octref.vetur
+ - redhat.vscode-yaml
+ - reflog.jsonresume
+ - samuelcolvin.jinjahtml
+ - syler.sass-indented
+ - tamasfe.even-better-toml
+ - tomoyukim.vscode-mermaid-editor
+ - twixes.pypi-assistant
+ - Tyriar.sort-lines

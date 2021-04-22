@@ -1,0 +1,47 @@
+---
+homebrew_cask_apps:
+  - android-messages # Desktop client for Android Messages
+  - android-studio # Tools for building Android applications
+  - appgate-sdp-client # Software-defined perimeter for secure network access
+  - balance-lock # Keep your Mac audio centred
+  - balenaetcher # Tool to flash OS images to SD cards & USB drives
+  - cheatsheet # Tool to list all active shortcuts of the current application
+  - day-o # A simple menu bar clock replacement
+  - dbeaver-community # Free universal database tool and SQL client
+  - discord # Voice and text chat software
+  - disk-inventory-x # Disk usage utility
+  - docker # App to build and share containerized applications and microservices
+  - dozer # Tool to hide status bar icons
+  - dupeguru # Finds duplicate files in a computer system
+  - firefox-developer-edition # Web browser
+  - font-fantasque-sans-mono # Fantasque Sans Mono
+  - font-firacode-nerd-font # FiraCode Nerd Font (Fira Code)
+  - font-hack-nerd-font # Hack Nerd Font (Hack)
+  - font-ia-writer-mono # iA Writer Mono
+  - freemind # Mind-mapping software written in Java
+  - gitkraken # Git client focusing on productivity
+  - google-backup-and-sync # Access and sync your Google Drive content
+  - google-chrome # Web browser
+  - gramps # Genealogy software
+  - iina # Free and open-source media player
+  - insomnia # HTTP and GraphQL Client
+  - iterm2-beta # Terminal emulator as alternative to Apple's Terminal app
+  - licecap # Animated screen capture application
+  - meld # Visual diff and merge tool
+  - muzzle # Silence embarrassing notifications while screensharing
+  - rectangle # Move and resize windows using keyboard shortcuts or snap areas
+  - robo-3t # MongoDB management tool
+  - session-manager-plugin # Plugin for AWS CLI to start and end sessions that connect to managed instances
+  - signal-beta # Instant messaging application focusing on security
+  - slack # Team communication and collaboration software
+  - the-unarchiver # Unpacks archive files
+  - tunnelblick # Free and open-source OpenVPN client
+  - vagrant # Development environment
+  - virtualbox # Free and open-source hosted hypervisor for x86 virtualization
+  - visual-studio-code # Open-source code editor
+  - wkhtmltopdf # open source (LGPLv3) command line tool to render HTML into PDF
+  - wombat # Cross platform gRPC client
+  - yubico-yubikey-manager # Cross-platform application for configuring any YubiKey over all USB interfaces
+  - zenmap # Multi-platform graphical interface for official Nmap Security Scanner
+  - zoom # Video communication and virtual meeting platform
+  - zoom-outlook-plugin # Outlook Plugin for Zoom.us

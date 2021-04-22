@@ -1,0 +1,72 @@
+---
+homebrew_installed_packages:
+  - ansible # Automate deployment, configuration, and upgrading
+  - ansible-lint # Checks ansible playbooks for practices and behaviour
+  - bat # Clone of cat(1) with syntax highlighting and Git integration
+  - bitwarden-cli # Secure and free password manager for all of your devices
+  - broot # New way to see and navigate directory trees
+  - buffalo # Rapid Web Development w/ Go
+  - caddy # Powerful, enterprise-ready, open source web server with automatic HTTPS
+  - cowsay # Configurable talking characters in ASCII art
+  - curl # Get a file from an HTTP, HTTPS or FTP server
+  - dive # A tool for exploring each layer in a docker image
+  - docker-compose # Isolated development environments using Docker
+  - exa # Modern replacement for 'ls'
+  - fd # Simple, fast and user-friendly alternative to find
+  - gh # GitHub command-line tool
+  - git # Distributed revision control system
+  - git-extras # Small git utilities
+  - go # Open source programming language to build simple/reliable/efficient software
+  - gofumpt # Stricter gofmt
+  - graphviz # Graph visualization software from AT&T and Bell Labs
+  - helm # Kubernetes package manager
+  - homeassistant-cli # Command-line utility for Home Assistant
+  - httpie # User-friendly cURL replacement (command-line HTTP client)
+  - hugo # Configurable static site generator
+  - jq # Lightweight and flexible command-line JSON processor
+  - kubectx # Tool that can switch between kubectl contexts easily and create aliases
+  - lazydocker # Lazier way to manage everything docker
+  - molecule # Automated testing for Ansible roles
+  - moreutils # Collection of tools that nobody wrote when UNIX was young
+  - mosh # Remote terminal application
+  - muffet # Fast website link checker in Go
+  - multitail # Tail multiple files in one terminal simultaneously
+  - node # Platform built on V8 to build network applications
+  - nvm # Manage multiple Node.js versions
+  - openssl # Cryptography and SSL/TLS Toolkit
+  - pandoc # Swiss-army knife of markup format conversion
+  - pgcli # CLI for Postgres with auto-completion and syntax highlighting
+  - pipx # Execute binaries from Python packages in isolated environments
+  - poetry # Python package management tool
+  - pre-commit # Framework for managing multi-language pre-commit hooks
+  - pv # Monitor data's progress through a pipe
+  - pyenv-ccache # Make Python build faster, using the leverage of `ccache`
+  - pyenv-default-packages # Automatically install packages in python environments
+  - pyenv-pip-migrate # Migrate pip packages from one Python version to another
+  - qrencode # QR Code generation
+  - rclone # Rsync for cloud storage
+  - ripgrep # Search tool like grep and The Silver Searcher
+  - rust # Safe, concurrent, practical language
+  - shellcheck # Static analysis and lint tool, for (ba)sh scripts
+  - shihanng/gig/gig # gitignore file generator
+  - sl # Prints a steam locomotive if you type sl instead of ls
+  - sqlite # Command-line interface for SQLite
+  - ssh-copy-id # Add a public key to a remote machine's authorized_keys file
+  - starship # Cross-shell prompt for astronauts
+  - stoken # Tokencode generator compatible with RSA SecurID 128-bit (AES)
+  - stonks # A terminal based stock visualizer and tracker.
+  - tealdeer # Very fast implementation of tldr in Rust
+  - tlk/imagemagick-x11/imagemagick # Tools and libraries to manipulate images in many formats (X11 support)
+  - tokei # Program that allows you to count code, quickly
+  - tox # Generic Python virtualenv management and test command-line tool
+  - tree # Display directories as trees (with optional color/HTML output)
+  - watch # Executes a program periodically, showing output fullscreen
+  - wget # Internet file retriever
+  - wireguard-tools # Tools for the WireGuard secure network tunnel
+  - wrk # HTTP benchmarking tool
+  - yadm # Yet Another Dotfiles Manager
+  - yarn # JavaScript package manager
+  - youtube-dl # Download YouTube videos from the command-line
+  - yq # Process YAML documents from the CLI
+  - zsh # UNIX shell (command interpreter)
+  - zsh-history-substring-search # Zsh port of Fish shell's history search

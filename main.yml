@@ -3,6 +3,11 @@
 
   vars_files:
     - default.config.yml
+    - vars/dock-items.yml
+    - vars/homebrew-cask-apps.yml
+    - vars/homebrew-installed-packages.yml
+    - vars/osx-defaults.yml
+    - vars/vscode-extensions.yml
 
   pre_tasks:
     - name: Include playbook configuration.
@@ -22,23 +27,37 @@
       tags: ['mas']
 
   tasks:
-    - include_tasks: tasks/ansible-setup.yml
+    - name: Set up Ansible
+      ansible.builtin.include_tasks: tasks/ansible-setup.yml
 
-    - include_tasks: tasks/sudoers.yml
+    - name: Configure Sudoers
+      ansible.builtin.include_tasks: tasks/sudoers.yml
       when: configure_sudoers
 
-    - include_tasks: tasks/terminal.yml
+    - name: Configure Terminal
+      ansible.builtin.include_tasks: tasks/terminal.yml
       when: configure_terminal
 
-    - include_tasks: tasks/osx.yml
+    - name: Configure OSX
+      ansible.builtin.include_tasks: tasks/osx.yml
       when: configure_osx
       tags: ['osx']
 
-    - include_tasks: tasks/extra-packages.yml
+    - name: Install extra packages
+      ansible.builtin.include_tasks: tasks/extra-packages.yml
       tags: ['extra-packages']
 
+    - name: Install VSCode extensions
+      ansible.builtin.include_tasks: tasks/vscode.yml
+      tags: ['vscode']
+
+    - name: Configure dock items
+      ansible.builtin.include_tasks: tasks/dock.yml
+      when: configure_dock
+      tags: ['dock']
+
     - name: Run configured post-provision ansible task files.
-      include_tasks: "{{ outer_item }}"
+      ansible.builtin.include_tasks: "{{ outer_item }}"
       loop_control:
         loop_var: outer_item
       with_fileglob: "{{ post_provision_tasks|default(omit) }}"

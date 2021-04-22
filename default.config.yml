@@ -1,16 +1,20 @@
 ---
 downloads: ~/.ansible-downloads/
 
-configure_dotfiles: true
-configure_terminal: true
+configure_dock: true
+configure_dotfiles: false
 configure_osx: true
-
 configure_sudoers: false
+configure_terminal: true
+
 sudoers_custom_config: ''
 # Example:
 # sudoers_custom_config: |
 #   # Allow users in admin group to use sudo with no password.
 #   %admin ALL=(ALL) NOPASSWD: ALL
+
+dockitems_to_remove: []
+dockitems_to_persist: []
 
 dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
 dotfiles_repo_accept_hostkey: true
@@ -22,53 +26,25 @@ dotfiles_files:
   - .osx
   - .vimrc
 
-homebrew_installed_packages:
-  # - ansible # Installed via Pip.
-  - autoconf
-  - bash-completion
-  - doxygen
-  - gettext
-  - gifsicle
-  - git
-  - github/gh/gh
-  - go
-  - gpg
-  - httpie
-  - iperf
-  - libevent
-  - sqlite
-  - mcrypt
-  - nmap
-  - node
-  - nvm
-  - php
-  - ssh-copy-id
-  - cowsay
-  - readline
-  - openssl
-  - pv
-  - wget
-  - wrk
-  - zsh-history-substring-search
+homebrew_installed_packages: []
 
 homebrew_taps:
   - homebrew/core
+  - homebrew/bundle
   - homebrew/cask
+  - homebrew/cask-drivers
+  - homebrew/cask-fonts
+  - homebrew/cask-versions
+  - homebrew/command-not-found
+  - homebrew/services
+  - ericm/stonks
+  - gobuffalo/tap
+  - jawshooah/pyenv
+  - shihanng/gig
+  - tlk/imagemagick-x11
 
 homebrew_cask_appdir: /Applications
-homebrew_cask_apps:
-  - chromedriver
-  - docker
-  - dropbox
-  - firefox
-  - google-chrome
-  - handbrake
-  - licecap
-  - sequel-pro
-  - slack
-  - sublime-text
-  - transmit
-  - vagrant
+homebrew_cask_apps: []
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
@@ -76,6 +52,11 @@ mas_email: ""
 mas_password: ""
 
 osx_script: "~/.osx --no-restart"
+osx_use_dotfile: false
+osx_use_defaults: true
+osx_defaults: []
+
+vscode_extensions: []
 
 # Install packages from other package managers.
 # Note: You are responsible for making sure the required package managers are
