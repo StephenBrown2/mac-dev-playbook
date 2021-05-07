@@ -4,5 +4,6 @@ roles:
   - name: geerlingguy.homebrew
   - name: geerlingguy.mas
 
-collections:
-- name: community.general
+collections: []
+# Contains osx_defaults, which due to staleness does not support dict/dict-add
+# - name: community.general

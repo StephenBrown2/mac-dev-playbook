@@ -1,6 +1,6 @@
 ---
 - name: Run macOS defaults.
-  community.general.osx_defaults:
+  osx_defaults_dict:
     domain: "{{ item.domain }}"
     key: "{{ item.key }}"
     type: "{{ item.type }}"
