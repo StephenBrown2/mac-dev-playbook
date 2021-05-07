@@ -7,7 +7,6 @@ vscode_extensions:
  - CJamesMay.plush # Language support for the Go Plush templating package
  - DavidAnson.vscode-markdownlint
  - dbaeumer.vscode-eslint
- - vscode-icons-team.vscode-icons
  - eamodio.gitlens
  - EditorConfig.EditorConfig
  - esbenp.prettier-vscode
@@ -30,8 +29,10 @@ vscode_extensions:
  - redhat.vscode-yaml
  - reflog.jsonresume
  - samuelcolvin.jinjahtml
+ - stoplight.spectral
  - syler.sass-indented
  - tamasfe.even-better-toml
  - tomoyukim.vscode-mermaid-editor
  - twixes.pypi-assistant
  - Tyriar.sort-lines
+ - vscode-icons-team.vscode-icons
