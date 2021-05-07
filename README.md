@@ -88,6 +88,10 @@ npm_packages:
 
 pip_packages:
  - name: mkdocs
+
+configure_dock: true
+dockitems_remove: []
+dockitems_persist: []
 ```
 
 Any variable can be overridden in `config.yml`; see the supporting roles' documentation for a complete list of available variables.
